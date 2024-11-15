@@ -1,0 +1,35 @@
+{
+  "name": "messaging-app-extension-playground",
+  "version": "1.0.0",
+  "description": "Playground app for Pipedrive Messaging App Extension",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipedrive/example-apps.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hem",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.16.2",
+    "hbs": "^4.1.1",
+    "knex": "^2.1.0",
+    "multer": "^1.4.4",
+    "passport": "^0.4.0",
+    "passport-oauth": "^1.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sqlite3": "^4.2.0"
+  }
+}
